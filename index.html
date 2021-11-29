@@ -1,48 +1,64 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link
+  rel="stylesheet"
+  href="css/master.css">
 </head>
 <body>
-    <div style="width:375px;height:50px;background-color:rgb(255, 255, 255);"></div>
-    <!--<ul>
-        ABOUT
-        WORK
-        RESUME
-    </ul>-->
-    <p>ABOUT</p>
-    <p><a href="#work">WORK</a></p>
-    <p><a href="#resume">RESUME</a></p>
+    <nav>
+       <!-- <div style="width:375px;height:50px;background-color:rgb(255, 255, 255);">-->
+            <div class="about">
+                <p><a href="#top"></a>ABOUT</p>
+                <!-- why tf does this not link to the about section -->
+            </div>
+            <div class="work">
+                <p><a href="#work">WORK</a></p>
+            </div>
+            <div class="resume">
+                <p><a href="#resume">RESUME</a></p>
+            </div> 
+    </nav>
     
-    <h1>CHRISTINA LEISEN PORTFOLIO.</h1> 
+    
+    <header>
+        <h1 id="top">CHRISTINA LEISEN PORTFOLIO.</h1>
+    </header>
+     
+    <main>
         <!--<img src="http://placehold.it/80x80" alt="contact me" />-->
         <a href="#contact"><img src="images/contact_me_icon.png" alt="contact_icon"></a>
-        <img src="images/profile.jpg" alt="profile_pic">
+
+        <div class= "intro">
+            <img src="images/profile.jpg" alt="profile_pic">
         <p>I am majoring in User Experience & Interactive Design at the Westphal College of Media Arts and Design in Philadelphia, PA. 
             I love discovering everyday issues and utilizing my creativity to provide functional and well-thought-out solutions for them. 
             When designing, I often refer to my passions for inspiration which include nature, graphic design, photography, and human connections.</p>
+        </div>
     
-        <h2 id="work">RECENT WORK.</h2>
-        <p><a href="amtrak.html">AMTRAK APP - TASK FLOW REDESIGN</a></p>
+       <!-- <div class="works"> -->
+            <h2 id="work">RECENT WORK.</h2>
+            <div class="amtrak">
+                <p><a href="amtrak.html">AMTRAK APP - TASK FLOW REDESIGN</a></p>
             <p>In this redesign, I learned the importance of microinteractions and the skills of creating signature features in mobile applications. 
                 I also learned...</p>
                  <!--<img src="http://placehold.it/150x150" alt="amtrak_mock_up" />-->
                 <img src="images/amtrak_thumbnail.jpg" alt="amtrak_thumbnail">
-        
+            </div>
+            <div class="amtrak">
                 <p><a href="euronews.html">EURONEWS WEBSITE - NAVIGATION REDESIGN</a></p>
             <p>Euronews.com is a news site that provides an international view, giving a new and different perspective. The main goal of their site...</p>
                 <!--<img src="http://placehold.it/150x150" alt="euronews_mock_up" />-->
                 <img src="images/euronews_thumbnail.jpg" alt="euronews_thumbnail">
+            </div>        
+        </div>
         
-                <p><a href="arctic_monkeys.html">ARCTIC MONKEYS WEBSITE - VISUAL BRAND REDESIGN</a></p>
-            <p>Arctic Monkeys is a British Indie rock band. Their site is a place for fans and followers to keep updated with album releases, tour dates, 
-                videos, and merchandise sale. The main goal is...</p>
-                <!--<img src="http://placehold.it/150x150" alt="arctic_monkeys_mock_up" />-->
-                <img src="images/arctic_monkeys_thumbnail.jpg" alt="arctic_monkeys_thumbnail">
-    
-            <h3 id="resume">EDUCATION</h6>
+        <!-- <div class="resume"> -->
+            <h3 id="resume">EDUCATION</h3>
         <p>B.S. User Experience & Interactive Design</p>
             <p>Drexel University / Philadelphia, PA / Anticipated Graduation 2025 / GPA: 3.9/4.0</p>
         <p>Pre-College in Graphic Design</p>
@@ -92,7 +108,7 @@
                 <li>Design for Media</li>
                 <li>Product Design</li>
             </ul>
-    <h7>SOFTWARE</h7>
+    <p>SOFTWARE</p>
             <ul>
                 <li>Figma</li>
                 <li>InVision</li>
@@ -103,24 +119,30 @@
                 <li>VS Code</li>
                 <li>WordPress</li>
             </ul>
-    <h8>AWARDS</h8>
+    <p>AWARDS</p>
             <ul>
                 <li>Drexel University Dean’s List / 2020-Present</li>
                 <li>Westphal Portfolio Scholarship & A.J. Drexel Scholarship / 2020</li>
                 <li>Medallion Award for Photojournalism / 2019</li>
                 <li>Selected Top Art Student in my High School for 2 consecutive years / 2018-2019</li>
             </ul>
-    <h9>ACTIVITIES</h9>
+    <p>ACTIVITIES</p>
             <ul>
                 <li>Drexel CHI User Experience Club / 2020-Present</li>
                 <li>Drexel Art Organization / 2020-Present</li>
                 <li>Drexel Weekend Warriors / 2020-Present</li>
                 <li>Yearbook Design Editor / 2018-2020</li>
             </ul>
-   
-            <h10 id="contact">CONTACT</h10>
+        </div>
+            
+    </main>
+        
+   <footer>
+        <p id="contact">CONTACT</p>
         <p>cil25@drexel.edu</p> 
         <p>(540) 578-6900</p>
+   </footer>
+            
        
 </body>
 </html>

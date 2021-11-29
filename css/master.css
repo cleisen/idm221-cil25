@@ -1,0 +1,27 @@
+nav{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    height: 60px;
+    background-color: rgba(235, 235, 235, 0.781)
+  }
+.about{
+    float: left;
+    margin: 3px 35px;
+    width: 56px;
+}
+.work{
+    float: left;
+    margin: 3px 35px;
+    width: 50px;
+}
+.resume{
+    float: left;
+    margin: 3px 35px;
+    width: 66px;
+}
+header{
+    margin: 80px 0 0 0;
+}
