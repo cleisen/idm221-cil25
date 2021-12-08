@@ -44,7 +44,6 @@ header{
     padding: 15px 15px 25px 15px;
     border: solid black;
     border-width: 0 0 2px 0;
-    margin: 0 0 30px 0;
 }  
 .intro p{
     text-indent: 50px;
@@ -60,70 +59,151 @@ img{
 }
 h2#work{
     font-weight: 600;
-    font-size: 70px;
-    line-height: 54px;
+    font-size: 60px;
+    line-height: 48px;
     padding: 20px;
     margin: 20px 0;
+    font-style: italic;
 }
 .amtrak{
     border: solid black;
-    border-width: 2px 0;
-    margin: 15px;
+    border-width: 1px 0;
+    padding: 20px 15px;
+    margin: 0 15px;
 }
-.amtraktitle{
+.amtraktitle, .euronewstitle{
     font-weight: 400;
-    font-size: 25px;
-    margin: 20px 0 0 0;
+    font-size: 28px;
+    font-style: italic;
+    margin: 0;
+    width: 162px;
+    line-height: 28px;
 }
-.amtrakp{
+a:link{
+    text-decoration: none;
+}
+.amtrakp, .euronewsp{
     font-size: 13px;
     margin: 0;
-    padding: 10px 0;
+    padding: 10px 0 0 0;
+    line-height: 16px;
 }
 body main div.projects div.amtrak img{
     padding: 10px;
-    width: 150px;
-    float: right;
+    width: 165px;
+    position: absolute;
+    left: 188px;
+    bottom: -620px;
     margin: 0;
+    border-radius: 18px;
 }
 .euronews{
-    border: solid black;
-    border-width: 0 0 2px 0;
+    padding: 20px 15px;
+    margin: 0 15px;
 }
+
 body main div.projects div.euronews img{
     padding: 10px;
+    width: 165px;
+    position: absolute;
+    left: 188px;
+    bottom: -860px;
+    margin: 0;
+    border-radius: 18px;
 }
 .education{
     border: solid black;
-    border-width: 0 0 2px 0;
+    border-width: 2px 0 2px 0;
+    padding: 20px 20px 27px 20px;
+}
+h3#resume, 
+.exptit, 
+.skilltit, 
+.coursetit, 
+.softtit,
+.awardtit,
+.acttit{
+    font-weight: 600;
+    font-size: 20px;
+    margin: 20px 0;
+}
+.schools{
+    padding: 0 0 0 30px;
+    line-height: 16px;
+}
+.bs, .pre{
+    font-weight: 500;
+    font-style: italic;
+    margin: 23px 0 -5px 0;
+}
+.drex, .pratt{
+    margin: 13px 0;
 }
 .experience{
     border: solid black;
     border-width: 0 0 2px 0;
+    padding: 20px;
+}
+main div.experience ul{
+    margin: 20px 0;
+}
+main div.experience p{
+    margin: 24px 0 0 0;
 }
 .skills{
     border: solid black;
     border-width: 0 0 2px 0;
+    padding: 20px;
+}
+main div.skills ul{
+    margin: 20px 0;
 }
 .courses{
     border: solid black;
     border-width: 0 0 2px 0;
+    padding: 20px;
+}
+main div.courses ul{
+    margin: 20px 0;
 }
 .software{
     border: solid black;
     border-width: 0 0 2px 0;
+    padding: 20px;
+}
+main div.software ul{
+    margin: 20px 0;
 }
 .awards{
     border: solid black;
     border-width: 0 0 2px 0;
+    padding: 20px;
+}
+main div.awards ul{
+    margin: 20px 0;
 }
 .activities{
     border: solid black;
     border-width: 0 0 2px 0;
+    padding: 20px;
+}
+main div.activities ul{
+    margin: 20px 0;
 }
 footer{
     border: solid black;
     border-width: 0 0 2px 0;
+    padding: 20px;
+    margin: 0 0 530px 0;
+}
+#contact{
+    font-weight: 600;
+    font-size: 60px;
+    font-style: italic;
+    margin: 20px 0;
+}
+.contact_methods{
+    padding: 0 0 20px 30px;
 }
 body main a img{
     width: 72px;
