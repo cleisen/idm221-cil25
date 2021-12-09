@@ -229,7 +229,8 @@ header p{
     font-size: 20px;
     padding: 20px 20px 0 20px;
 }
-main .amtrakpage p{
+main .amtrakpage p, 
+main .euronewspage p{
     padding: 0 20px;
     font-weight: 400;
     font-size: 13px;
@@ -269,4 +270,20 @@ figcaption{
 }
 iframe{
     padding: 20px 0;
+}
+
+/* euronews page */
+
+.eurotit{
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 49px;
+}
+.imgbottom2{
+    margin: -10px 0 20px 0;
+}
+.imgcolor{
+    margin: 20px 50px;
+    padding: 0 50px;
+    width: 275px;
 }
