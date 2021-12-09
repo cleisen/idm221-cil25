@@ -7,7 +7,7 @@
     height: 60px;
     background-color: rgba(235, 235, 235, 0.781)
   } */
-.about{
+/* .about{
     float: left;
     margin: 3px 35px;
     width: 56px;
@@ -21,7 +21,10 @@
     float: left;
     margin: 3px 35px;
     width: 66px;
-}
+} */
+
+/* index page */
+
 body{
     font-family: 'Rubik', sans-serif;
     margin: 0;
@@ -34,7 +37,7 @@ header{
     font-style: italic;
     font-weight: 700;
     font-size: 30px;
-    line-height: 48px;
+    line-height: 49px;
 }
 
 * {
@@ -49,7 +52,7 @@ header{
     text-indent: 50px;
     font-weight: 400;
     font-size: 13px;
-    line-height: 16px;
+    line-height: 20px;
     padding: 10px 0;
     margin: 0;
 }
@@ -93,7 +96,7 @@ body main div.projects div.amtrak img{
     width: 165px;
     position: absolute;
     left: 188px;
-    bottom: -620px;
+    bottom: -676px;
     margin: 0;
     border-radius: 18px;
 }
@@ -107,7 +110,7 @@ body main div.projects div.euronews img{
     width: 165px;
     position: absolute;
     left: 188px;
-    bottom: -860px;
+    bottom: -910px;
     margin: 0;
     border-radius: 18px;
 }
@@ -190,7 +193,7 @@ main div.awards ul{
 main div.activities ul{
     margin: 20px 0;
 }
-footer{
+.contact{
     border: solid black;
     border-width: 0 0 2px 0;
     padding: 20px;
@@ -206,7 +209,64 @@ footer{
     padding: 0 0 20px 30px;
 }
 body main a img{
-    width: 72px;
+    width: 78px;
     float: right;
-    margin: 0 8px 20px 0;
+    margin: 0 10px 30px 0;
+}
+
+/* amtrak page */
+
+header p{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    text-indent: 50px;
+    font-style: normal;
+}
+.subheading{
+    margin: 20px 0;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px 20px 0 20px;
+}
+main .amtrakpage p{
+    padding: 0 20px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    margin: 20px;
+}
+figure{
+    margin: 40px 20px 0 20px;
+}
+figcaption{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+}
+.subheading1{
+    padding: 0 20px 20px 20px;
+    font-weight: 500;
+    font-style: italic;
+}
+.subheading2{
+    font-weight: 500;
+    font-style: italic;
+    padding: 20px;
+}
+.imgboth{
+    margin: 20px 0 20px 0;
+}
+.imgtop{
+    margin: 20px 0 0 0;
+}
+.imgbottom{
+    margin: 0 0 20px 0;
+}
+.imgchange{
+    margin: 20px;
+    width: 335px;
+}
+iframe{
+    padding: 20px 0;
 }
