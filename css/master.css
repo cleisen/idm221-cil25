@@ -39,6 +39,9 @@ header{
     font-size: 30px;
     line-height: 49px;
 }
+#top{
+    margin: 40px 0 0 0;
+}
 
 * {
     box-sizing: border-box;
@@ -93,12 +96,13 @@ a:link{
 }
 body main div.projects div.amtrak img{
     padding: 10px;
-    width: 165px;
+    width: 134px;
     position: absolute;
-    left: 188px;
-    bottom: -676px;
+    left: 202px;
+    bottom: -700px;
     margin: 0;
     border-radius: 18px;
+    z-index: 10;
 }
 .euronews{
     padding: 20px 15px;
@@ -107,12 +111,13 @@ body main div.projects div.amtrak img{
 
 body main div.projects div.euronews img{
     padding: 10px;
-    width: 165px;
+    width: 134px;
     position: absolute;
-    left: 188px;
-    bottom: -910px;
+    left: 202px;
+    bottom: -927px;
     margin: 0;
     border-radius: 18px;
+    z-index: 10;
 }
 .education{
     border: solid black;
@@ -211,7 +216,11 @@ main div.activities ul{
 body main a img{
     width: 78px;
     float: right;
-    margin: 0 10px 30px 0;
+    margin: 0 20px 30px 0;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    z-index: 20;
 }
 
 /* amtrak page */
