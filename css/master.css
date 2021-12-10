@@ -25,274 +25,293 @@
 
 /* index page */
 
-body{
-    font-family: 'Rubik', sans-serif;
-    margin: 0;
+body {
+  font-family: "Rubik", sans-serif;
+  margin: 0;
+  background-color: #edf7fa;
 }
-header{
-    margin: 20px 0;
-    border: 2px solid black;
-    border-width: 2px 0 2px 0;
-    padding: 20px;
-    font-style: italic;
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 49px;
+header {
+  margin: 20px 0;
+  border: 2px solid black;
+  border-width: 2px 0 2px 0;
+  padding: 20px;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 49px;
 }
-#top{
-    margin: 40px 0 0 0;
+#top {
+  margin: 40px 0 0 0;
 }
 
 * {
-    box-sizing: border-box;
-  }
-.intro{
-    padding: 15px 15px 25px 15px;
-    border: solid black;
-    border-width: 0 0 2px 0;
-}  
-.intro p{
-    text-indent: 50px;
-    font-weight: 400;
-    font-size: 13px;
-    line-height: 20px;
-    padding: 10px 0;
-    margin: 0;
+  box-sizing: border-box;
 }
-img{
-    height: auto;
-    width: 100%;
+.intro {
+  padding: 15px 15px 25px 15px;
+  border: solid black;
+  border-width: 0 0 2px 0;
 }
-h2#work{
-    font-weight: 600;
-    font-size: 60px;
-    line-height: 48px;
-    padding: 20px;
-    margin: 20px 0;
-    font-style: italic;
+.intro p {
+  text-indent: 50px;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  padding: 10px 0;
+  margin: 0;
 }
-.amtrak{
-    border: solid black;
-    border-width: 1px 0;
-    padding: 20px 15px;
-    margin: 0 15px;
+img {
+  height: auto;
+  width: 100%;
 }
-.amtraktitle, .euronewstitle{
-    font-weight: 400;
-    font-size: 28px;
-    font-style: italic;
-    margin: 0;
-    width: 162px;
-    line-height: 28px;
+h2#work {
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 48px;
+  padding: 20px;
+  margin: 20px 0;
+  font-style: italic;
 }
-a:link{
-    text-decoration: none;
+.amtrak {
+  border: solid black;
+  border-width: 1px 0;
+  padding: 20px 15px;
+  margin: 0 15px;
 }
-.amtrakp, .euronewsp{
-    font-size: 13px;
-    margin: 0;
-    padding: 10px 0 0 0;
-    line-height: 16px;
+.amtraktitle,
+.euronewstitle {
+  font-weight: 400;
+  font-size: 28px;
+  font-style: italic;
+  margin: 0;
+  width: 162px;
+  line-height: 28px;
 }
-body main div.projects div.amtrak img{
-    padding: 10px;
-    width: 134px;
-    position: absolute;
-    left: 202px;
-    bottom: -700px;
-    margin: 0;
-    border-radius: 18px;
-    z-index: 10;
+a:link {
+  text-decoration: none;
 }
-.euronews{
-    padding: 20px 15px;
-    margin: 0 15px;
+.amtrakp,
+.euronewsp {
+  font-size: 13px;
+  margin: 0;
+  padding: 10px 0 0 0;
+  line-height: 16px;
+}
+body main div.projects div.amtrak img {
+  padding: 10px;
+  width: 134px;
+  position: absolute;
+  left: 202px;
+  bottom: -700px;
+  margin: 0;
+  border-radius: 18px;
+  z-index: 10;
+}
+.euronews {
+  padding: 20px 15px;
+  margin: 0 15px;
 }
 
-body main div.projects div.euronews img{
-    padding: 10px;
-    width: 134px;
-    position: absolute;
-    left: 202px;
-    bottom: -927px;
-    margin: 0;
-    border-radius: 18px;
-    z-index: 10;
+body main div.projects div.euronews img {
+  padding: 10px;
+  width: 134px;
+  position: absolute;
+  left: 202px;
+  bottom: -927px;
+  margin: 0;
+  border-radius: 18px;
+  z-index: 10;
 }
-.education{
-    border: solid black;
-    border-width: 2px 0 2px 0;
-    padding: 20px 20px 27px 20px;
+.education {
+  border: solid black;
+  border-width: 2px 0 2px 0;
+  padding: 20px 20px 27px 20px;
 }
-h3#resume, 
-.exptit, 
-.skilltit, 
-.coursetit, 
+h3#resume,
+.exptit,
+.skilltit,
+.coursetit,
 .softtit,
 .awardtit,
-.acttit{
-    font-weight: 600;
-    font-size: 20px;
-    margin: 20px 0;
+.acttit {
+  font-weight: 600;
+  font-size: 20px;
+  margin: 20px 0;
 }
-.schools{
-    padding: 0 0 0 30px;
-    line-height: 16px;
+.schools {
+  padding: 0 0 0 30px;
+  line-height: 16px;
 }
-.bs, .pre{
-    font-weight: 500;
-    font-style: italic;
-    margin: 23px 0 -5px 0;
+.bs,
+.pre {
+  font-weight: 500;
+  font-style: italic;
+  margin: 23px 0 -5px 0;
 }
-.drex, .pratt{
-    margin: 13px 0;
+.drex,
+.pratt {
+  margin: 13px 0;
 }
-.experience{
-    border: solid black;
-    border-width: 0 0 2px 0;
-    padding: 20px;
+.experience {
+  border: solid black;
+  border-width: 0 0 2px 0;
+  padding: 20px;
 }
-main div.experience ul{
-    margin: 20px 0;
+main div.experience ul {
+  margin: 20px 0;
 }
-main div.experience p{
-    margin: 24px 0 0 0;
+main div.experience p {
+  margin: 24px 0 0 0;
 }
-.skills{
-    border: solid black;
-    border-width: 0 0 2px 0;
-    padding: 20px;
+.skills {
+  border: solid black;
+  border-width: 0 0 2px 0;
+  padding: 20px;
 }
-main div.skills ul{
-    margin: 20px 0;
+main div.skills ul {
+  margin: 20px 0;
 }
-.courses{
-    border: solid black;
-    border-width: 0 0 2px 0;
-    padding: 20px;
+.courses {
+  border: solid black;
+  border-width: 0 0 2px 0;
+  padding: 20px;
 }
-main div.courses ul{
-    margin: 20px 0;
+main div.courses ul {
+  margin: 20px 0;
 }
-.software{
-    border: solid black;
-    border-width: 0 0 2px 0;
-    padding: 20px;
+.software {
+  border: solid black;
+  border-width: 0 0 2px 0;
+  padding: 20px;
 }
-main div.software ul{
-    margin: 20px 0;
+main div.software ul {
+  margin: 20px 0;
 }
-.awards{
-    border: solid black;
-    border-width: 0 0 2px 0;
-    padding: 20px;
+.awards {
+  border: solid black;
+  border-width: 0 0 2px 0;
+  padding: 20px;
 }
-main div.awards ul{
-    margin: 20px 0;
+main div.awards ul {
+  margin: 20px 0;
 }
-.activities{
-    border: solid black;
-    border-width: 0 0 2px 0;
-    padding: 20px;
+.activities {
+  border: solid black;
+  border-width: 0 0 2px 0;
+  padding: 20px;
 }
-main div.activities ul{
-    margin: 20px 0;
+main div.activities ul {
+  margin: 20px 0;
 }
-.contact{
-    border: solid black;
-    border-width: 0 0 2px 0;
-    padding: 20px;
-    margin: 0 0 530px 0;
+.contact {
+  border: solid black;
+  border-width: 0 0 2px 0;
+  padding: 20px;
+  margin: 0 0 530px 0;
 }
-#contact{
-    font-weight: 600;
-    font-size: 60px;
-    font-style: italic;
-    margin: 20px 0;
+#contact {
+  font-weight: 600;
+  font-size: 60px;
+  font-style: italic;
+  margin: 20px 0;
 }
-.contact_methods{
-    padding: 0 0 20px 30px;
+.contact_methods {
+  padding: 0 0 20px 30px;
 }
-body main a img{
-    width: 78px;
-    float: right;
-    margin: 0 20px 30px 0;
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
-    top: 0;
-    z-index: 20;
+body main a img {
+  width: 78px;
+  float: right;
+  margin: 0 20px 30px 0;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  z-index: 20;
 }
 
 /* amtrak page */
 
-header p{
-    font-weight: 400;
-    font-size: 13px;
-    line-height: 20px;
-    text-indent: 50px;
-    font-style: normal;
+header p {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  text-indent: 50px;
+  font-style: normal;
 }
-.subheading{
-    margin: 20px 0;
-    font-weight: 600;
-    font-size: 20px;
-    padding: 20px 20px 0 20px;
+.subheading {
+  margin: 20px 0;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 20px 20px 0 20px;
 }
-main .amtrakpage p, 
-main .euronewspage p{
-    padding: 0 20px;
-    font-weight: 400;
-    font-size: 13px;
-    line-height: 20px;
-    margin: 20px;
+main .amtrakpage p,
+main .euronewspage p {
+  padding: 0 20px;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  margin: 20px;
 }
-figure{
-    margin: 40px 20px 0 20px;
+figure {
+  margin: 40px 20px 0 20px;
 }
-figcaption{
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 15px;
+figcaption {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
 }
-.subheading1{
-    padding: 0 20px 20px 20px;
-    font-weight: 500;
-    font-style: italic;
+.subheading1 {
+  padding: 0 20px 20px 20px;
+  font-weight: 500;
+  font-style: italic;
 }
-.subheading2{
-    font-weight: 500;
-    font-style: italic;
-    padding: 20px;
+.subheading2 {
+  font-weight: 500;
+  font-style: italic;
+  padding: 20px;
 }
-.imgboth{
-    margin: 20px 0 20px 0;
+.imgboth {
+  margin: 20px 0 20px 0;
 }
-.imgtop{
-    margin: 20px 0 0 0;
+.imgtop {
+  margin: 20px 0 0 0;
 }
-.imgbottom{
-    margin: 0 0 20px 0;
+.imgbottom {
+  margin: 0 0 20px 0;
 }
-.imgchange{
-    margin: 20px;
-    width: 335px;
+.imgchange {
+  margin: 20px;
+  width: 335px;
 }
-iframe{
-    padding: 20px 0;
+iframe {
+  padding: 20px 0;
 }
 
 /* euronews page */
 
-.eurotit{
-    font-size: 54px;
-    font-weight: 700;
-    line-height: 49px;
+.eurotit {
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 49px;
 }
-.imgbottom2{
-    margin: -10px 0 20px 0;
+.imgbottom2 {
+  margin: -10px 0 20px 0;
 }
-.imgcolor{
-    margin: 20px 50px;
-    padding: 0 50px;
-    width: 275px;
+.imgcolor {
+  margin: 20px 50px;
+  padding: 0 50px;
+  width: 275px;
 }
+.backbutton{
+    width: 42px;
+    position: absolute;
+    left: 284px;
+    bottom: -28px;
+    margin: 0 20px 20px 0;
+  }
+  .backbutton2{
+    width: 42px;
+    position: absolute;
+    left: 284px;
+    bottom: 185px;
+    margin: 0 20px 20px 0;
+  }
